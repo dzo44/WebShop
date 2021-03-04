@@ -85,7 +85,7 @@
           function SacuvajProizvode(callback) {
               
             var zahtev = new XMLHttpRequest();
-            zahtev.open("GET","/Podaci/Proizvodi.json",true);
+            zahtev.open("GET","Proizvodi.json",true);
             zahtev.send();
 
             zahtev.onreadystatechange = function () {
